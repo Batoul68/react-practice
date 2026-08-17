@@ -7,6 +7,7 @@ function FormComponent() {
   const [comment, setComment] = useState("");
   const [payment, setPayment] = useState("");
   const [shipping, setShipping] = useState("");
+  const nameChange="";
 
   function handleNameChange(event) {
     setName(event.target.value);
@@ -31,7 +32,7 @@ function FormComponent() {
   return(
     <div>
       <input value={name} onChange={handleNameChange}/>
-      <p>Name: {name}</p>
+      <p>Name: {nameChange}</p>
 
       <input value={quantity} onChange={handleQuantityChange} type="number"/>
       <p>Quantity: {quantity}</p>
