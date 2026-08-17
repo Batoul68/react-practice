@@ -11,7 +11,7 @@ function App() {
                 {id:8, name:"The Originals", seasons:7}];
   return(
     <>
-      {animes.length > 0 && <List items={animes}/>}
+      {animes.length > 0 && <List items={animes} category="animes"/>}
       {shows.length > 0 && <List items={shows} category="shows" />}
     </>
   );
