@@ -1,9 +1,9 @@
-import ArrayUpdate from './ArrayUpdate.jsx'
+import ArrayOfObjectUpdate from './ArrayOfObjectUpdate.jsx'
 function App() {
 
   return(
     <>
-      <ArrayUpdate />
+      <ArrayOfObjectUpdate />
     </>
   );
 }

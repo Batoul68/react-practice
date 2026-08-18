@@ -156,6 +156,6 @@ input[type="color"] {
   border: 3px solid rgb(171, 170, 170);
 }
 
-.anime-list:hover {
+.updater-list-item:hover {
   cursor: pointer;
 }

@@ -21,7 +21,7 @@ function ArrayUpdate() {
       <h2>List of Animes</h2>
       <ul>
         {animes.map((anime, index) => 
-                    <li className="anime-list" key={index} onClick={() => handleRemoveAnime(index)}>
+                    <li className="updater-list-item" key={index} onClick={() => handleRemoveAnime(index)}>
                       {anime}
                     </li>)}
       </ul>
