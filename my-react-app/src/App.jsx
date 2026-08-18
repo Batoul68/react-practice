@@ -1,9 +1,9 @@
-import Counter from './Counter.jsx'
+import StateUpdate from './StateUpdate.jsx'
 function App() {
 
   return(
     <>
-      <Counter />
+      <StateUpdate />
     </>
   );
 }

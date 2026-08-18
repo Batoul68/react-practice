@@ -10,7 +10,7 @@ function Counter() {
 
   const decrement = () => {
     setCount(c => c - 1);
-  }
+  } 
 
   const reset = () => {
     setCount(0);
