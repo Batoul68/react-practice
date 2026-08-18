@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function StateUpdate() {
+function ObjectUpdate() {
 
   const [car, setCar] = useState({year:1998, 
                                   make:"Nissan", 
@@ -29,4 +29,4 @@ function StateUpdate() {
   );
 
 }
-export default StateUpdate
+export default ObjectUpdate

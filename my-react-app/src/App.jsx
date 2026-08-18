@@ -1,9 +1,9 @@
-import StateUpdate from './StateUpdate.jsx'
+import ObjectUpdate from './ObjectUpdate.jsx'
 function App() {
 
   return(
     <>
-      <StateUpdate />
+      <ObjectUpdate />
     </>
   );
 }
