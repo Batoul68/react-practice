@@ -29,6 +29,5 @@ function ArrayUpdate() {
       <button onClick={handleAddAnime}>Add Anime</button>
     </div>
   );
-
 }
 export default ArrayUpdate
