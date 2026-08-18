@@ -1,9 +1,9 @@
-import ToDoList from './ToDoList.jsx'
+import MySecondComponent from './MySecondComponent.jsx'
 function App() {
 
   return(
     <>
-      <ToDoList />
+      <MySecondComponent />
     </>
   );
 }
