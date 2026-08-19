@@ -1,8 +1,12 @@
-import Reference from './Reference.jsx'
+import Stopwatch from './Stopwatch.jsx'
 function App() {
 
   return(
-    <Reference />
+    <>
+      <Stopwatch />
+      <Stopwatch />
+    </>
+    
   );
 }
 
