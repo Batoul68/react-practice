@@ -1,8 +1,8 @@
-import ComponentA from './ComponentA.jsx'
+import Reference from './Reference.jsx'
 function App() {
 
   return(
-    <ComponentA />
+    <Reference />
   );
 }
 
