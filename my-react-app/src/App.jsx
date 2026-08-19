@@ -1,10 +1,11 @@
-import MyThirdComponent from './MyThirdComponent.jsx'
+import DigitalClock from './DigitalClock.jsx'
 function App() {
 
   return(
     <>
-      <MyThirdComponent />
+      <DigitalClock />
     </>
+     
   );
 }
 
